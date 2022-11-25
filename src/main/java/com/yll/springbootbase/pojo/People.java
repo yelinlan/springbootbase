@@ -11,9 +11,9 @@ import java.util.List;
 import java.util.Map;
 
 @Data
+@Validated
 @Component
 @ConfigurationProperties(prefix = "people")
-@Validated
 public class People {
 	//单独导入某一个的方式
 	//@Value("${name}")
