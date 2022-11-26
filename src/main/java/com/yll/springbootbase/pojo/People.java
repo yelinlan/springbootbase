@@ -16,7 +16,6 @@ import java.util.Map;
 @ConfigurationProperties(prefix = "people")
 public class People {
 	//单独导入某一个的方式
-	//@Value("${name}")
 	@Email
 	private String name;
 	private int age;
